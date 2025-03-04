@@ -56,7 +56,7 @@ Use [`docker-compose.yml`](./microservices/docker-compose.yml) to run both servi
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/docker-interview-guide.git
+   git clone https://github.com/in28minutes/docker-interview-guide.git
    cd docker-interview-guide
    ```
 2. **Choose a project**: Navigate into the project folder of your choice.
