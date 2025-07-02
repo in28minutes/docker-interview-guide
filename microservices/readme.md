@@ -41,11 +41,11 @@ We use **Docker Compose** to run both microservices together.
 
 ### 1️⃣ **Build and Run the Microservices**
 ```bash
-docker-compose up --build
+docker compose up
 ```
 This will:
-- Build and run **Currency Exchange Service** on `http://localhost:8000`
-- Build and run **Currency Conversion Service** on `http://localhost:8100`
+- Run **Currency Exchange Service** on `http://localhost:8000`
+- Run **Currency Conversion Service** on `http://localhost:8100`
 
 ### 2️⃣ **Accessing the Microservices**
 #### ✅ Currency Exchange API:
@@ -57,7 +57,7 @@ This will:
 ### 3️⃣ **Stopping and Cleaning Up**
 To stop the services, run:
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### 📢 Communication Between Two Services
